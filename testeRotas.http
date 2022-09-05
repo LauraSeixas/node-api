@@ -1,0 +1,23 @@
+
+POST http://localhost:3000/api HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Nati",
+    "email": "nati@gmail.com"
+}
+###
+GET http://localhost:3000/api HTTP/1.1
+
+###
+PUT http://localhost:3000/api/6b184d8e-f914-4b69-bb72-c75cd1b4e335 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "mudoudeletou",
+    "email": "OI@gmail.com"
+}
+###
+DELETE http://localhost:3000/api/6b184d8e-f914-4b69-bb72-c75cd1b4e335 HTTP/1.1
+content-type: application/json
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1>FRONT API</h1>
+    </nav>
+    <section>
+        <h3>FORMULÁRIO DE CADASTRO DE USUÁRIOS</h3>
+        <p>Para inserir usuários na lista, preencha os dados abaixo.</p>
+    </section>
+    <div class="line"></div>
+    <form method="post" action="/api">
+
+
+        <input type="text" name="nome" id="nome" placeholder="Nome Completo" required autofocus>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+
+        <button type="button" id="btn" onclick="sendData()">Cadastrar</button>
+
+    </form>
+
+
+
+    <section id="sectionDois">
+        <h3>LISTA DE USUÁRIOS CADASTRADOS</h3>
+        <p>Abaixo, você pode ver os outros usuários registrados, podendo editálos ou remové-los.</p>
+    </section>
+    <div class="line"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="tableWidth">#ID</th>
+                <th class="tableWidth">NOME</th>
+                <th class="tableWidth">E-MAIL</th>
+                <th class="tableWidthDois">EDITAR</th>
+                <th class="tableWidthDois">EXCLUIR</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

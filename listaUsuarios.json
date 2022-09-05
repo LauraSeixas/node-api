@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1c497186-be9c-4b1d-b055-bcf0110cd7f4",
+    "nome": "Laura",
+    "email": "laura@gmail.com",
+    "deleted": false
+  },
+  {
+    "id": "d336a9bb-6052-44ad-a1b8-5f279419c900",
+    "nome": "Ivan",
+    "email": "ivan@gmail.com",
+    "deleted": false
+  },
+  {
+    "id": "e70aa0c9-3ecb-4a38-8241-d0d80ff84f11",
+    "nome": "Well",
+    "email": "well@gmail.com",
+    "deleted": false
+  },
+  {
+    "id": "d7c41a57-4a46-4fc5-91f5-313eeff362fe",
+    "nome": "Mari",
+    "email": "mari@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "3f490cde-723d-45f9-a87b-4f3539dab373",
+    "nome": "Nay",
+    "email": "nay@gmail.com",
+    "deleted": false
+  },
+  {
+    "id": "6b184d8e-f914-4b69-bb72-c75cd1b4e335",
+    "nome": "mudoudeletou",
+    "email": "OI@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "00f3eeac-c0b2-4b51-a374-7e8d7c07bcd8",
+    "nome": "teste",
+    "email": "teste@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "47f833ce-79d9-44a3-a6c3-bc7a4469ba54",
+    "nome": "teste",
+    "email": "teste@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "160efd96-10c8-41e6-b978-e96f7511b9dc",
+    "nome": "teste",
+    "email": "teste@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "0e414416-4d09-42e8-a68d-99f88cd3cc05",
+    "nome": "joão",
+    "email": "socorro@gmail.com",
+    "deleted": true
+  },
+  {
+    "id": "1349155c-3dbd-44f2-98a7-666b089615b0",
+    "nome": "mudando",
+    "email": "mudando@gmail.com",
+    "deleted": true
+  }
+]
